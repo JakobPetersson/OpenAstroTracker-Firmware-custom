@@ -61,7 +61,7 @@
 #define DEC_UART_STEALTH_MODE          1
 
 // Is it going the wrong way?
-#define DEC_INVERT_DIR  0
+#define DEC_INVERT_DIR  1
 
 // Define some DEC stepper motor settings
 #define DEC_STEPPER_ACCELERATION 3000
