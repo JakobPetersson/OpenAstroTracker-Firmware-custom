@@ -129,7 +129,9 @@
 
 ////////////////////////////////
 // Is the RA Auto Home addon installed
-#define USE_HALL_SENSOR_RA_AUTOHOME 0
+// Pin 3 is the J3/-X sensor input port. Which is the same as RA_DIAG_PIN, but we are not using that diag input.
+#define RA_HOMING_SENSOR_PIN 3
+#define USE_HALL_SENSOR_RA_AUTOHOME 1
 
 ///////////////////////
 // Debug settings
